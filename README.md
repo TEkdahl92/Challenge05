@@ -1,5 +1,5 @@
 # Challenge05 - A simple calendar app for scheduling your work day
-![](images/live-site.png)
+![](Assets/Images/live-site.png)
 <h1>Description</h1><br>
 A scheduler for planning your day.
 
