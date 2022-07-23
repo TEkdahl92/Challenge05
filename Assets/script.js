@@ -105,8 +105,7 @@ function colorBackgrounds() {
 }
 
 // Handler for the save action. Gathers data required for a save.
-// Output: N/A
-// Side effects: Stores a value using the saveHour function
+// Output: Stores a value using the saveHour function
 function saveTaskHandler(event) {
     let row = $(event.currentTarget).parent();
     let rowHour = row.data(DATA_HOUR_STR);
@@ -114,7 +113,7 @@ function saveTaskHandler(event) {
     saveHour(rowHour, taskString);
 }
 
-/* Functions relating to the saving and loading of scheduled tasks */
+// Functions relating to the saving and loading of scheduled tasks */
 // Output: an array of every task's text
 function loadAllHours() {
     let tasks = [];
@@ -138,8 +137,7 @@ function loadHour(hourNumber) {
 }
 
 // Saves task data string to local storage using an hourNumber-based key
-// Output: N/A
-// Side effects: Saves taskData to local storage
+// Output: Saves taskData to local storage
 function saveHour(hourNumber, taskData) {
     let storageKey = createStorageKey(hourNumber);
     localStorage.setItem(storageKey, taskData);
