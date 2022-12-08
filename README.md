@@ -9,4 +9,4 @@ Text can be entered into the grey text areas and saved by clicking the save icon
 Save icon from https://icons8.com/icon/XTU9VXM4oKaX/save
 
 <h1>Live page</h1><br>
-Live deployed version of the site can be found at https://tekdahl92.github.io/Challenge05/
+Live deployed version of the site can be found at https://tekdahl92.github.io/WorkDay/
